@@ -108,10 +108,9 @@ padding-bottom: 94px;} */
   padding-top: 32px;
   padding-bottom: 32px;
   display: block;
-  transition-property: color;
-  transition-duration: var(--transition-duration);
-  transition-timing-function: var(--transition-cub);
-}
+  transition: color var(--transition-duration) var(--transition-cub);
+ }
+
 .header-list,
 .header-contacts {
   display: flex;
@@ -222,10 +221,8 @@ padding-bottom: 94px;} */
   margin: 0 auto;
   margin-top: 30px;
   padding: 10px 32px;
-  transition-property: background-color;
-  transition-duration: var(--transition-duration);
-  transition-timing-function: var(--transition-cub);
-}
+  transition: background-color var(--transition-duration) var(--transition-cub);
+  }
 
 .hero-bt:hover,
 .hero-bt:focus {
@@ -375,10 +372,8 @@ padding-bottom: 94px;} */
   align-items: center;
   justify-content: center;
   color: var(--primary-logo-color);
-  transition-property: color, background-color;
-  transition-duration: var(--transition-duration);
-  transition-timing-function: var(--transition-cub);
-}
+  transition: color, background-color var(--transition-duration) var(--transition-cub);
+  }
 
 .social-link:hover,
 .social-link:focus {
@@ -428,10 +423,8 @@ padding-bottom: 94px;} */
   align-items: center;
   justify-content: center;
   color: var(--primary-logo-color);
-  transition-property: color, border-color;
-  transition-duration: var(--transition-duration);
-  transition-timing-function: var(--transition-cub);
-}
+  transition-property: color, border-color var(--transition-duration) var(--transition-cub);
+ }
 
 .clients-link:hover,
 .clients-link:focus {
@@ -477,10 +470,8 @@ padding-bottom: 94px;} */
 
 .footer-mail,
 .footer-tel {
-  transition-property: color;
-  transition-duration: var(--transition-duration);
-  transition-timing-function: var(--transition-cub);
-}
+  transition-property: color var(--transition-duration) var(--transition-cub);
+  }
 
 .place {
   color: var(--primary-bkg-color);
@@ -579,10 +570,8 @@ main {
   display: block;
   text-decoration: none;
   flex-basis: calc((100% - 60px) / 3);
-  transition-property: box-shadow;
-  transition-duration: var(--transition-duration);
-  transition-timing-function: var(--transition-cub);
-}
+  transition-property: box-shadow var(--transition-duration) var(--transition-cub);
+ }
 
 .project-link:hover {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
@@ -668,7 +657,7 @@ main {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
-  transition: transform 500ms cubic-bezier(0.075, 0.82, 0.165, 1);
+  transition: transform 700ms cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
 .modal-bt {
