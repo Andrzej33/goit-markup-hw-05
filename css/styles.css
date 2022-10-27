@@ -372,7 +372,8 @@ padding-bottom: 94px;} */
   align-items: center;
   justify-content: center;
   color: var(--primary-logo-color);
-  transition: color, background-color var(--transition-duration) var(--transition-cub);
+  transition: color var(--transition-duration) var(--transition-cub),
+    background-color var(--transition-duration) var(--transition-cub);
   }
 
 .social-link:hover,
@@ -423,7 +424,8 @@ padding-bottom: 94px;} */
   align-items: center;
   justify-content: center;
   color: var(--primary-logo-color);
-  transition-property: color, border-color var(--transition-duration) var(--transition-cub);
+  transition-property: color var(--transition-duration) var(--transition-cub),
+    border-color var(--transition-duration) var(--transition-cub);
  }
 
 .clients-link:hover,
