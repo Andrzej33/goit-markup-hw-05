@@ -623,6 +623,7 @@ main {
   transition-duration: var(--transition-duration);
   transition-timing-function: var(--transition-cub);
   opacity: 0;
+  overflow: auto;
 }
 
 /* -----------------BACKDROP------------------ */
